@@ -1,21 +1,19 @@
-@impo
-
 body {
-    font-familt: 'Poppins'. sans-serif;
     background-color: rgb(161, 100, 223);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    margin: 0;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    text-align:center;
+    margin:0;
     overflow: hidden;
 }
 
+
 .btn {
     background-color: rebeccapurple;
-    color: white;
-    border: none;
+    color:white;
+    border:none;
     border-radius: 5px;
     cursor: pointer;
     margin: 1rem;
@@ -23,6 +21,7 @@ body {
     font-size: 1.2rem;
 }
 
+
 .btn:hover {
-    opacity: 0.9;
+    opacity: 0.5;
 }
