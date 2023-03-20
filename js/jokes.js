@@ -1,4 +1,8 @@
 const jokeEl = document.getElementById('joke')
+
+
+generateJoke()
+
 const jokebtn = document.getElementById('jokebtn')
 
 
