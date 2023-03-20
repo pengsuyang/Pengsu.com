@@ -1,26 +1,56 @@
 
-
-body {
+body{
+    background-color: skyblue;
     display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    margin:0;
     overflow: hidden;
-    background: #686de0;
 }
 
-.container {
-    background-color: #fff;
+
+.btn{
+    background-color: forestgreen;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    cursor:pointer;
+    padding: 14px 40px;
+    font-size:16px;
+}
+
+
+.btn:active{
+    transform: scale(.95);
+}
+
+
+.btn:hover{
+    opacity: .7;
+}
+
+
+.container{
+    background-color: #CEDFDF;
     border-radius: 10px;
     text-align: center;
     width: 800px;
+    padding: 50px 20px;
 }
 
+
 h3 {
+    margin:0;
+    letter-spacing: 2px;
+}
+
+
+.joke {
     font-size: 30px;
     letter-spacing: 1px;
-    line-height: 40px;
+    line-height:40px;
     margin: 50px auto;
     max-width: 600px;
 }
+
