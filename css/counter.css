@@ -25,3 +25,9 @@ body {
     font-size: 60px;
     margin-top: 10px;
 }
+
+@media (max-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+}
