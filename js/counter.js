@@ -1,0 +1,1 @@
+const counters= document.querySelectAll('.counter')

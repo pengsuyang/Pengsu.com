@@ -1,4 +1,4 @@
-@import url('https:/fonts.googlapis.com/css2?family=Roboto+mono
+@import url('https:/fonts.googlapis.com/css2?family=Roboto+mono:wght@200&family=Sono:wght@300&display=swap')
 
 
 body {
@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    overflow: hideenl
+    overflow: hidden;
 }
 
 .counter-container {
