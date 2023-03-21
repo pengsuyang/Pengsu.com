@@ -12,3 +12,8 @@ body {
     margin: 0;
     overflow: hideenl
 }
+
+.counter-container {
+    displayer: flex;
+    
+}
