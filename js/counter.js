@@ -11,7 +11,7 @@ counters.forEach(counter => {
         const c = +counter.innerText
 
 
-        const increment = target / 200
+        const increment = target / 200000000
 
 
         if (c < target) {
