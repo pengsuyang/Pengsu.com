@@ -1,30 +1,20 @@
-JS
-const counters = document.querySelectorAll('.counter')
+const bg = document.querySelector('.bg')
+const loadText = document.querySelector('.loading-text')
 
 
-counters.forEach (counter => {
-    counter.innerText = '0'
+let load = 0
 
 
-    const updateCounter = () => {
-        const target = +counter.getAttribute('data-target')
-        const c = +counter.innerText
+let int = setInterval(blurring, 30)
 
 
-        const increment = target / 1000
-
-
-        if (c < target) {
-            counter.innerText = `${Math.ceil(c + increment)}`
-            setTimeout(updateCounter, 1)
-        }
-        else {
-            counter.innerText = target
-        }
-
-
+function blurring(){
+    load++;
+    loadText.innerText = `${load}%`
+    if (load == 100) {
+        clearInterval(int)
     }
+    bg.style.filter = `blur(${30 - 0.3*load}px)`
+    loadText.style.opacity = `${1-load/100}`
+}
 
-
-    updateCounter()
-})
