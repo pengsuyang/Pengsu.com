@@ -33,6 +33,6 @@ body {
 }
 
 
-.square: hover {
+.square:hover {
     transition-duration: 0s;
 }
