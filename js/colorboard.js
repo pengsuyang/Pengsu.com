@@ -6,4 +6,15 @@ for(let i = 0;i < SQUARES; i++) {
     const square = document.createElement('div')
     square.classList.add('square')
     container.appendChild(square)
+    square.addEventListener('mouseover', () => setColoer(square))
+}
+
+
+function setColor(element) {
+    const color = getRandomColor()
+}
+
+
+function getRandomColor() {
+    return colors[Math.floor(math.random()*colors.length)]
 }
