@@ -1,7 +1,11 @@
 
 
+
+
+
+
 body {
-    background-coloer: #111111;
+    background-color: #111111;
     display: flex;
     height: 100vh;
     align-items: center;
@@ -10,12 +14,15 @@ body {
     margin: 0;
 }
 
+
 .container {
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
+    align-items: center;
     justify-content: center;
 }
+
 
 .square {
     height: 16px;
@@ -25,6 +32,7 @@ body {
     transition: 2s ease;
 }
 
-.square:hover {
+
+.square: hover {
     transition-duration: 0s;
 }
