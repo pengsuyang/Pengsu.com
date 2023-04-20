@@ -6,4 +6,127 @@ body {
     align-items: center;
     height: 100vh;
     position: absolute;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navigation-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.progress-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.expanding-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.loading-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.search-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.sounds-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.jokes-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.counter-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.colorboard-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.typing-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
 }
